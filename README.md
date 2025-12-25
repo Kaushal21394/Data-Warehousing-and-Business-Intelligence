@@ -155,6 +155,12 @@ Assignments focused on **Azure-based analytics**, SQL querying, and Power BI rep
 - `Chinook Assignment.docx`
 
 ---
+## 📊 Featured Dashboards
+
+![Airline Performance](Airline On time Performance/MapReduce/mapreduceOutputData/BestAirport/screenshot.png)
+
+![Retail Sales](Contose Retailer Database/Fact Sales Dashboard Power BI.png)
+
 
 ## 6️⃣ Tableau Visualizations
 
