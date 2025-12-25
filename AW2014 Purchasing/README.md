@@ -1,52 +1,45 @@
-# AdventureWorks 2016 — Sales & Purchasing Data Warehouse
+# AdventureWorks 2014 — Purchasing Data Warehouse
 
-This project implements a **Sales and Purchasing Data Warehouse** using the **AdventureWorks 2016** dataset, covering the complete lifecycle from **dimensional modeling → ETL → BI dashboards**.
+This project focuses on **Purchasing analytics** using the **AdventureWorks 2014** dataset, emphasizing **dimensional modeling and SQL-based ETL**.
 
 ---
 
 ## 📊 Business Objective
-- Analyze **sales and purchasing performance**
-- Enable reporting by **product, geography, vendor, and time**
-- Support executive decision-making using BI dashboards
+- Analyze purchasing activity and supplier performance
+- Design a dimensional model optimized for analytics
+- Implement SQL transformations across multiple databases
 
 ---
 
-## 🧱 Data Warehouse Design
-- Star-schema–based dimensional model
-- Fact tables for **Sales** and **Purchasing**
-- Conformed dimensions (Date, Product, Vendor, Geography)
+## 🧱 Data Modeling
+- ER to dimensional model conversion
+- Fact table: Purchasing
+- Dimensions: Product, Vendor, Date, Location
 
 ---
 
-## 🔄 ETL & Data Integration
-- Built using **Talend**
-- Source-to-Target (S2T) mappings defined and validated
-- Data quality checks using row counts and reconciliation
+## 🗄 SQL & Database Support
+Implemented SQL scripts for:
+- SQL Server
+- Oracle
+- MySQL
+- PostgreSQL
+- Azure SQL
 
-📦 ETL Package:
-- `AdventureWorksDW2016_Talend.zip`
-
----
-
-## 📈 Business Intelligence
-- **Power BI**
-  - `AdventureWorksPurchasingBI.pbix`
-- **Tableau**
-  - `ProductsPurchased_mysql.twb`
+📁 `Data Model and Script/`
 
 ---
 
 ## 📂 Key Files
-- `AdventureWorks2016_Purchasing.pdf`
-- `INFO7290 Data Integration Team HW - Sales & Purchasing DW.pdf`
-- `S2T Mapping.xlsx`
-- `Row Count Purchasing USA.xlsx`
-- `SQLQueries.docx`
+- `Purchase.sql`
+- `Purchase.xlsx`
+- `KaushalChaudhary_Assignment3_PurchasingDW.pdf`
+- `KaushalChaudhary_Assignment3_ERtoDimentionalModelling.pdf`
 
 ---
 
 ## 🧠 Skills Demonstrated
 - Dimensional modeling
-- Talend ETL development
-- BI dashboard design
-- Data validation and reconciliation
+- Cross-platform SQL development
+- Purchasing analytics
+- Data warehouse design documentation
